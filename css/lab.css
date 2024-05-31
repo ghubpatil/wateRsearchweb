@@ -91,6 +91,9 @@ body{
         gap: 50px;
           width: 600px;
       }
+      .card{
+        width: 300px;
+      }
       }
 
 
@@ -105,6 +108,9 @@ body{
           gap: 50px;
             width: 600px;
         }
+        .card{
+          width: 300px;
+        }
       }
 
       @media screen and (max-device-width: 480px) 
@@ -118,6 +124,9 @@ body{
           gap: 50px;
             width: 600px;
         }
+        .card{
+          width: 300px;
+        }
       }
 
       @media screen and (min-device-width: 768px) 
@@ -130,6 +139,9 @@ body{
           /* columns: 2; */
           gap: 50px;
             width: 1200px;
+        }
+        .card{
+          width: 300px;
         }
 
       }
@@ -146,6 +158,9 @@ body{
           gap: 50px;
             width: 1200px;
         }
+        .card{
+          width: 500px;
+        }
       }
 
 
@@ -160,6 +175,9 @@ body{
           gap: 50px;
             width: 1200px;
         }
+        .card{
+          width: 500px;
+        }
       }
 
 
@@ -173,6 +191,9 @@ body{
           gap: 50px;
             width: 1200px;
         }
+        .card{
+          width: 500px;
+        }
       }
 
 
@@ -180,34 +201,7 @@ body{
 
 
 
-@media screen and (min-width: 600px) {
-  .cardm{
-    margin: 60px 90px;
-  display: flex;
-  flex-wrap: wrap;
-  /* columns: 2; */
-  gap: 50px;
-    width: 600px;
-    /* columns: 2; */
-  
-  }
-}
 
-
-
-
-@media screen and (min-width: 768px) {
-  .cardm{
-    margin: 60px 90px;
-  display: flex;
-  flex-wrap: wrap;
-  /* columns: 2; */
-  gap: 50px;
-    width: 600px;
-    /* columns: 2; */
-  
-  }
-}
 
 
 
