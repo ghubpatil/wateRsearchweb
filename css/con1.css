@@ -81,7 +81,7 @@
   @media screen and (min-width: 600px) {
     div.site {
      background-color: #f2f2f2;
-    height: 100vh;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,13 +91,13 @@
     @media screen and (min-width: 768px) {
       div.site {
        background-color: #f2f2f2;
-      height: 100vh;
+      height: 85vh;
       display: flex;
       align-items: center;
       justify-content: center;
       }
-    }
 
+    }
   div.containercon {
     background-color: white;
     display: flex;
@@ -107,7 +107,7 @@
     margin: 30px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
   }
-
+  
   div.img1 {
     height: 300px;
     width: 100%;
