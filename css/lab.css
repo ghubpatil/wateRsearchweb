@@ -59,6 +59,9 @@ body{
       gap: 50px;
         width: 600px;
     }
+    .card{
+      width: 250px;
+    }
 
   }
 
@@ -74,6 +77,8 @@ body{
     /* columns: 2; */
     gap: 50px;
       width: 600px;
+  } .card{
+    width: 250px;
   }
 
 }
@@ -92,7 +97,7 @@ body{
           width: 600px;
       }
       .card{
-        width: 300px;
+        width: 250px;
       }
       }
 
@@ -109,7 +114,7 @@ body{
             width: 600px;
         }
         .card{
-          width: 300px;
+          width: 250px;
         }
       }
 
@@ -125,7 +130,7 @@ body{
             width: 600px;
         }
         .card{
-          width: 300px;
+          width: 250px;
         }
       }
 
