@@ -21,7 +21,7 @@ body {
 
 a {
   /* color: #448EE4; */
-  color: #319acd;
+  /* color: #319acd; */
   text-decoration: none;
   font-family: "Noto Sans", sans-serif;
 
@@ -1448,20 +1448,20 @@ and (max-device-width: 1024px) {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #319acd;
+  /* background: #319acd; */
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color:red;
   transition: 0.4s;
   border-radius: 50px;
   margin-top: 50px;
   font-family: "Noto Sans", sans-serif;
 
 }
-
+/* 
 .contact .php-email-form button[type=submit]:hover {
   background: #dd5a92;
-}
+} */
 
 @keyframes animate-loading {
   0% {
