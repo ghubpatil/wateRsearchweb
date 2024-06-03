@@ -233,14 +233,15 @@
  
   div.img1 {
     height: 300px;
-    width: 1600px;
+    width: 100%;
+    /* width: 1600px; */
     background: url("https://vincivilworld.com/wp-content/uploads/2021/06/untitled-design-27.jpg?w=1024&h=576");
     background-position: center;
     background-size: cover;
   }
   div.img2 {
     height: 300px;
-    width: 1600px;
+    width: 100%;
     background: url("https://5.imimg.com/data5/SELLER/Default/2022/1/TX/NC/XI/121812649/energy-environment-audit-consultancy-500x500.jpg");
     background-position: center;
     background-size: cover;
@@ -249,8 +250,8 @@
 
   div.img3 {
     height: 300px;
-    width: 2000px;
-    background: url("https://images.pexels.com/photos/2815150/pexels-photo-2815150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    width: 100%;
+    background: url("https://media.licdn.com/dms/image/D5612AQHmU1hL7vHMSg/article-cover_image-shrink_720_1280/0/1680241088237?e=2147483647&v=beta&t=WhybkmOySDaMfwqaipcff5vHEpSt0ZzeY0k4F0U8fT8");
     background-position: center;
     background-size: cover;
   }
@@ -275,8 +276,8 @@
 
   div.img6 {
     height: 300px;
-    width: 2900px;
-    background: url("https://trcaca.s3.ca-central-1.amazonaws.com/app/uploads/2021/08/23150938/frm_clairevilledam3_aug2021.jpg");
+    width: 1200px;
+    background: url("../img/dam.jpg");
     background-position: center;
     background-size: cover;
   }

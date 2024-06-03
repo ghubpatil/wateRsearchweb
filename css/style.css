@@ -22,6 +22,7 @@ body {
 a {
   /* color: #448EE4; */
   /* color: #319acd; */
+  font-weight: bold;
   text-decoration: none;
   font-family: "Noto Sans", sans-serif;
 
@@ -65,7 +66,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #db528c;
+  background: #319acd;
   color: #fff;
 }
 
@@ -511,8 +512,16 @@ section {
 }
 
 .section-bg1 {
-  /* background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%); */
-  background-color: #111;
+  background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+  /* background-color:#fff; */
+  background-image: url(https://t3.ftcdn.net/jpg/05/30/96/04/360_F_530960431_c8fPd3HansYvrSJ4fJxZqp9OhjQmYoll.jpg);
+  background-size: cover;
+  opacity: 0.3;
+
+  background-position: center;
+  position: relative;
+  opacity: 1;
+
 }
 
 .section-title {
@@ -545,7 +554,7 @@ and (-webkit-min-device-pixel-ratio: 3)
       font-size: 32px;
       font-weight: bold;
       margin-bottom: 15px;
-      margin-left: 50px;
+      margin-left: 60px;
       padding-bottom: 15px;
       position: relative;
       font-family: "Noto Sans", sans-serif;
@@ -564,7 +573,7 @@ and (-webkit-min-device-pixel-ratio: 2)
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 15px;
-    margin-left: 55px;
+    margin-left: 60px;
     padding-bottom: 15px;
     position: relative;
     font-family: "Noto Sans", sans-serif;
@@ -581,7 +590,7 @@ and (-webkit-min-device-pixel-ratio: 2)
       font-size: 32px;
       font-weight: bold;
       margin-bottom: 15px;
-      margin-left: 55px;
+      margin-left: 60px;
       padding-bottom: 15px;
       position: relative;
       font-family: "Noto Sans", sans-serif;
@@ -598,7 +607,7 @@ and (max-device-width: 640px)
       font-size: 32px;
       font-weight: bold;
       margin-bottom: 15px;
-      margin-left: 55px;
+      margin-left: 60px;
       padding-bottom: 15px;
       position: relative;
       font-family: "Noto Sans", sans-serif;
@@ -614,7 +623,7 @@ and (max-device-width: 1024px) {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 15px;
-    margin-left: 55px;
+    margin-left: 60px;
     padding-bottom: 15px;
     position: relative;
     font-family: "Noto Sans", sans-serif;
@@ -1329,7 +1338,8 @@ and (max-device-width: 1024px) {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #319acd;
+   color: white;
+
   font-family: "Noto Sans", sans-serif;
 
 }
@@ -1370,13 +1380,15 @@ and (max-device-width: 1024px) {
 
 .contact .info {
   color: white;
+
   font-family: "Noto Sans", sans-serif;
 
 }
 
 .contact .info i {
   font-size: 32px;
-  color: #319acd;
+  color: white;
+
   line-height: 0;
   margin-right: 15px;
   font-family: "Noto Sans", sans-serif;
@@ -1386,6 +1398,7 @@ and (max-device-width: 1024px) {
 .contact .info p {
   font-size: 14px;
   margin: 0;
+  color: white;
   font-family: "Noto Sans", sans-serif;
 
 }
@@ -1499,7 +1512,10 @@ and (max-device-width: 1024px) {
 .our-team {
   padding: 40px 0 40px;
   margin-bottom: 30px;
-  background-color: #000008;
+  border: 1px solid black;
+  border-radius: 10px 50px;
+
+  background-color:white;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -1563,7 +1579,7 @@ and (max-device-width: 1024px) {
 .our-team .title {
   display: block;
   font-size: 13px;
-  color: #ada8a8 ;
+  color: black;
   text-transform: capitalize;
   text-align: center;
   text-overflow: ellipsis;
@@ -1572,7 +1588,7 @@ and (max-device-width: 1024px) {
 .our-team .name {
   display: block;
   font-size: 25px;
-  color: #ada8a8 ;
+  color: black;
   text-transform: capitalize;
 }
 .our-team .social {
