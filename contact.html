@@ -43,7 +43,25 @@
 
   <!-- Template Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
-
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/410/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)")
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+</script>
 
 <style>
   .carousel-caption {
@@ -107,7 +125,7 @@
               </ul>
             </li>
             <li><a class="nav-link scrollto" href="mainproject.html">Project</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Team</a></li>
+            <li><a class="nav-link scrollto" href="index.html#teamMember">Team</a></li>
             <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
   
           </ul>
@@ -171,7 +189,8 @@ Swapan sakar builiding,H No.274/1,8B, <br/>Shindoli Road,Mutga <br/>Belagavi-591
                 
                 <div class="contact-info-content">
                   <h4>Email</h4>
-                 <p>watersearch@gmail.com
+                 <p>watersearch.bgm@gmail.com
+
 
                  </p>
                 </div>
@@ -197,7 +216,9 @@ Swapan sakar builiding,H No.274/1,8B, <br/>Shindoli Road,Mutga <br/>Belagavi-591
                 </div>
                 
                 <div class="input-box">
-                  <input type="submit" value="Send" name="">
+                  <!-- <button onclick="SubForm()">Submit</button> -->
+
+                  <input onclick="SubForm()" type="submit" value="Send" name="">
                 </div>
               </form>
             </div>
