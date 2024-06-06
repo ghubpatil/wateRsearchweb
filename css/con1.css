@@ -276,7 +276,7 @@
 
   div.img6 {
     height: 300px;
-    width: 1200px;
+    width: 100%;
     background: url("https://knowledge.civilgeo.com/wp-content/uploads/sites/25/2022/10/Dam-Break-Analysis-Image-1.png");
     background-position: center;
     background-size: cover;
