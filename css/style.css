@@ -788,6 +788,8 @@ and (max-device-width: 1024px) {
 .about .content p {
   margin-bottom: 0;
   font-family: "Noto Sans", sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
 
 }
 
@@ -1532,7 +1534,7 @@ and (min-device-width: 375px)
 and (-webkit-min-device-pixel-ratio: 3) 
   {
     .our-team {
-      margin-left: 60px;
+      margin-left: 45px;
       padding: 40px 0 40px;
       margin-bottom: 30px;
       border: 1px solid black;
@@ -1566,7 +1568,7 @@ and (-webkit-min-device-pixel-ratio: 3)
       position: relative;
       width: 270px;
       height: 350px;
-      margin-left: 60px;
+      margin-left: 45px;
 
 
     }
@@ -1578,7 +1580,7 @@ and (-webkit-min-device-pixel-ratio: 3)
     and (-webkit-min-device-pixel-ratio: 2) 
 
       { .our-team {
-        margin-left: 60px;
+        margin-left: 45px;
         padding: 40px 0 40px;
         margin-bottom: 30px;
         border: 1px solid black;
@@ -1602,7 +1604,7 @@ and (-webkit-min-device-pixel-ratio: 3)
       and (max-device-width: 640px) 
         {
           .our-team {
-            margin-left: 60px;
+            margin-left: 45px;
             padding: 40px 0 40px;
             margin-bottom: 30px;
             border: 1px solid black;
@@ -1624,7 +1626,7 @@ and (-webkit-min-device-pixel-ratio: 3)
   @media screen and (min-device-width: 768px) 
         and (max-device-width: 1024px) {
           .our-team {
-            margin-left: 60px;
+            margin-left: 45px;
             padding: 40px 0 40px;
             margin-bottom: 30px;
             border: 1px solid black;
