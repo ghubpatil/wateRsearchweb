@@ -198,27 +198,28 @@ Swapan sakar builiding,H No.274/1,8B, <br/>Shindoli Road,Mutga <br/>Belagavi-591
             </div>
             
             <div class="contact-form">
-              <form action="" id="contact-form">
+              <form  name="gform" id="contact-form">
                 <h2>Send Message</h2>
                 <div class="input-box">
-                  <input type="text" required="true" name="">
-                  <span>Full Name</span>
+                  <input type="text" required="true" placeholder="First Name*" name="name">
+                  <!-- <span>Full Name</span> -->
                 </div>
                 
                 <div class="input-box">
-                  <input type="email" required="true" name="">
-                  <span>Email</span>
+                  <input name="phone" placeholder="Phone Number*"  pattern="[789][0-9]{9}" maxlength="10"  type="text" id="Mob-no" placeholder="Phone Number*" required="">
+
+                  <!-- <span>Phone Number</span> -->
                 </div>
                 
                 <div class="input-box">
-                  <textarea required="true" name=""></textarea>
-                  <span>Type your Message...</span>
+                  <textarea required="true " placeholder="Type your Message*"  name="message"></textarea>
+                  <!-- <span>Type your Message...</span> -->
                 </div>
                 
                 <div class="input-box">
                   <!-- <button onclick="SubForm()">Submit</button> -->
 
-                  <input onclick="SubForm()" type="submit" value="Send" name="">
+                  <input id="submit" type="submit" value="Send" name="">
                 </div>
               </form>
             </div>
@@ -232,6 +233,36 @@ Swapan sakar builiding,H No.274/1,8B, <br/>Shindoli Road,Mutga <br/>Belagavi-591
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+
+
+
+
+  <script>
+    const form = document.querySelector("#contact-form")
+    const submitButton = document.querySelector("#submit")
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzHL2FqlyFbTVCcEQq6NHKR1EKa_JbNUQp5Ny5xEHmqU12MTDZa76ADOA6Y88dxSKaX0A/exec'
+ 
+    form.addEventListener('submit', e => {
+      submitButton.disabled = true
+      e.preventDefault()
+      let requestBody = new FormData(form)
+      fetch(scriptURL, { method: 'POST', body: requestBody})
+        .then(response => {
+           alert('Success!', response)
+           submitButton.disabled = false
+          })
+        .catch(error => {
+        alert('Error!', error.message)
+          submitButton.disabled = false
+ 
+        }
+        )               
+         window.location.replace("http://www.watersearch.in");
+
+    })
+ </script>
+
+  
   <!-- Vendor JS Files -->
   <script src="vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
